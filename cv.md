@@ -48,7 +48,7 @@ function learnJavaScript() {
    * «JavaScript/Front-end. Stage 0» (in progress)
 * IT-Overone Cource 
    * «THE WAY PYTHON» (in progress)
-   * «THE WAY FRONT-END» (in progress)
+
 
 ---
 ## Languages
