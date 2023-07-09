@@ -1,0 +1,25 @@
+/* Create your test CSS here */
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'Comfortaa', cursive;;
+}
+
+* {
+  box-sizing: border-box;
+}
+  
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
