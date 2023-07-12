@@ -1,12 +1,35 @@
 /* Create your test CSS here */
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
+  width: 100%;
+  height:100%;
 }
 
 body {
   font-family: 'Asap Condensed', sans-serif;
   font-family: 'Comfortaa', cursive;;
+  background-color: #aab9b9;
+  height:100%;
+  font-weight: 100;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: rgb(7, 26, 244);
+  background-color: #ffffff;
+}
+
+.more {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: #576c92; 
 }
 
 * {
@@ -18,8 +41,14 @@ body {
   margin: 0 auto;
 }
 
+
+.my_avatar img {
+  width: 20%;
+  border-radius: 50%;
+}
+
 .link {
   text-decoration: none;
-  color: #829985;
+  color: #ffffff;
   transition: color 0.5s;
 }
